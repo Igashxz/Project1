@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="docbuilding.css">
+    <title>Documentation Page</title>
+  </head>
+  <body>
+      <nav id="navbar">
+        <header>Python Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Getting_Started">Getting Started</a>
+        <a class="nav-link" href="#Syntax_Basics">Syntax Basics</a>
+        <a class="nav-link" href="#Data_Types">Data Types</a>
+        <a class="nav-link" href="#Functions">Functions</a>
+        <a class="nav-link" href="#Control_Flow">Control Flow</a>
+        <a class="nav-link" href="#Modules_and_Packages">Modules and Packages</a>
+        <a class="nav-link" href="#Object_Oriented_Programming_(OOP)">Object Oriented Programming (OOP)</a>
+        <a class="nav-link" href="#File_Handling">File Handling</a>
+        <a class="nav-link" href="#Error_Handling">Error Handling</a>
+      </nav>
+      <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p id="Introduction">Python is a general-purpose programming language known for its simplicity and power. It is widely used across different industries for tasks ranging from simple scripting to machine learning. Its syntax is intuitive, making it a top choice for beginners and experienced developers alike. Python continues to grow due to its strong community and massive library support. It’s the foundation many modern software systems are built on.</p>
+        <ul id="Introduction">
+          <li>Created by Guido van Rossum in 1991.</li>
+
+<li>Easy to learn, write, and maintain.</li>
+
+<li>Used in data science, web dev, AI, and more.</li>
+
+<li>Open-source with thousands of community libraries.</li>
+
+<li>Highly portable across operating systems.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Getting_Started">
+        <header>Getting Started</header>
+        <p id="Getting_Started">Setting up Python is simple and can be done in a few minutes. The official website provides the latest version and an installer for all platforms. After installation, a terminal or text editor is enough to start coding. Most people prefer using IDEs to improve productivity. Python also comes with pip, a package manager for installing external modules.</p>
+        <ul id="Getting_Started">
+          <li>Download from python.org.</li>
+          <li>Check version using python --version.</li>
+          <li>Use .py files to write code.</li>
+          <li>Install packages with pip install.</li>
+          <li>Use IDEs like VS Code or PyCharm for development.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Syntax_Basics">
+        <header>Syntax Basics</header>
+        <p id="Syntax_Basics">Python’s syntax is known for being clean and readable. Code blocks are defined by indentation, not curly braces. You write fewer lines to do more compared to other languages. It encourages good coding practices through its structure. Understanding the syntax is key to writing effective Python code.</p>
+        <ul id="Syntax_Basics">
+          <li>Use 4-space indentation for blocks.</li>
+          <li>Comments start with #.</li>
+          <li>Strings use ' or ", and variables need no type.</li>
+          <li>Use if, for, while for control flow.</li>
+          <li>Use print() for output.</li>
+          <li>Basic that every programmer starts</li>
+          <pre><code class="codings" id="Syntax_Basics">
+            print("Hello, Python!")
+          </code></pre>
+        </ul>
+      </section>
+      <section class="main-section" id="Data_Types">
+        <header>Data Types</header>
+        <p id="Data_Types">Python includes various built-in data types to handle different kinds of information. These types include numbers, strings, lists, tuples, sets, and dictionaries. Each type serves a specific purpose and comes with useful methods. Understanding these types is essential for managing and transforming data effectively. Python also allows custom data structures using classes.</p>
+        <ul id="Data_Types">
+          <li>int, float, bool for numbers.</li>
+          <li>str for text, list for ordered collections.</li>
+          <li>dict for key-value pairs.</li>
+          <li>set for unique items, tuple for immutable lists.</li>
+          <li>Use type() to check the type of any variable.</li>
+          <li>Basic data type example</li>
+          <pre><code class="codings" id="Data_Types">
+            my_list = [1, 2, 3]
+            my_dict = {"name": "Alice", "age": 25}
+            print(my_dict["name"])
+
+          </code></pre>
+        </ul>
+      </section>
+      <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <p id="Functions">Functions are reusable blocks of code that help break down problems into smaller parts. Python lets you define functions with def, and they can accept inputs and return outputs. They help keep code clean, organized, and modular. You can also use anonymous functions and nested functions. Documenting functions makes them easier to understand later.</p>
+        <ul id="Functions">
+          <li>Define with def function_name():.</li>
+          <li>Use return to send back a result.</li>
+          <li>Accept inputs via parameters.</li>
+          <li>Use lambda for one-liners.</li>
+          <li>Document with triple-quoted docstrings.</li>
+          </li>Basic function syntax and example</li>
+         <pre><code class="codings" id="Functions">
+            def square(num):
+              return num * num
+            print(square(4))
+          </code></pre>
+        </ul>
+      </section>
+      <section class="main-section" id="Control_Flow">
+        <header>Control Flow</header>
+        <p id="Control_Flow">Control flow allows your program to make decisions and repeat actions. Python supports conditional statements and loops for flexible logic. Use if-elif-else to handle branching paths in your code. Loops like for and while let you repeat tasks efficiently. Break and continue statements offer even more control inside loops.</p>
+        <ul id="Control_Flow">
+          <li>Use if, elif, else for decisions.</li>
+          <li>for loops iterate over sequences.</li>
+          <li>while loops run as long as a condition is true.</li>
+          <li>Use break to exit loops early.</li>
+          <li>Use continue to skip to the next iteration.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Modules_and_Packages">
+        <header>Modules and Packages</header>
+        <p id="Modules_and_Packages">Modules help you organize code into separate files and reuse logic. A module is simply a .py file with functions or variables you can import. Packages are collections of modules in directories with __init__.py files. Python also includes a standard library full of useful modules. You can install more packages from PyPI.</p>
+        <ul id="Modules_and_Packages">
+          <li>Import modules using import module_name.</li>
+          <li>Use from module import function for specific items.</li>
+          <li>Built-in modules include math, os, random, etc.</li>
+          <li>Create your own module by saving a .py file.</li>
+          <li>Use pip to install packages from the internet</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Object_Oriented_Programming_(OOP)">
+        <header>Object Oriented Programming (OOP)</header>
+        <p id="Object_Oriented_Programming_(OOP)">Python supports OOP, allowing you to model real-world entities with classes and objects. This helps in organizing code that involves complex structures and relationships. You define a class with class, and create objects (instances) from it. OOP makes large applications easier to build and maintain. It supports principles like inheritance and encapsulation.</p>
+        <ul id="Object_Oriented_Programming_(OOP)">
+          <li>Define classes using class ClassName:.</li>
+          <li>Use __init__ for initializing object properties.</li>
+          <li><Access attributes with self.attribute./li>
+          <li>Support for inheritance and polymorphism.</li>
+          <li>Encapsulate data and logic inside objects.</li>
+          <li>Undersatnd the Oops Concept using the code below</li>
+          <pre><code class="codings" id="Object_Oriented_Programming_(OOP)">
+            class Person:
+              def __init__(self, name):
+                self.name = name
+
+            def greet(self):
+              return f"Hello, I'm {self.name}"
+
+            p = Person("Alice")
+            print(p.greet())
+          </code></pre>
+        </ul>
+      </section>
+      <section class="main-section" id="File_Handling">
+        <header>File Handling</header>
+        <p id="File_Handling">Python can read from and write to files easily, which is useful for data storage and manipulation. Files can be opened in different modes like read (r), write (w), and append (a). Always close your files to prevent data loss or corruption. Using the with statement is the safest way to handle files. Python also supports reading CSVs, JSON, and more.</p>
+        <ul id="File_Handling">
+          <li>Use open() to access files.</li>
+          <li>Modes: 'r', 'w', 'a', 'rb', etc.</li>
+          <li>Always close files or use with open(...).</li>
+          <li>Use .read(), .write(), and .readlines() methods.</li>
+          <li>Handle exceptions with try for file operations.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Error_Handling">
+        <header>Error Handling</header>
+        <p id="Error_Handling">Error handling ensures your program doesn’t crash unexpectedly. Python uses try-except blocks to catch and manage exceptions. You can handle different types of errors individually. It’s good practice to log or display helpful error messages. You can also raise your own exceptions for custom validation.</p>
+        <ul id="Error_Handling">
+          <li>Wrap risky code in try blocks.</li>
+          <li>Use except to catch exceptions.</li>
+          <li>Add else and finally for optional actions.</li>
+          <li>Use raise to create custom errors.</li>
+          <li>Handle specific exceptions like ValueError, TypeError, etc.</li>
+          <li>Understand the error, clear it like clever</li>
+          <pre><code class="codings" id="Error_Handling">
+            try:
+              result = 10 / 0
+            except ZeroDivisionError:
+              print("You can't divide by zero!")
+
+          </code></pre>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

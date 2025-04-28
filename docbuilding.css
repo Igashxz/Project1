@@ -1,0 +1,41 @@
+@media (min-width:500px){
+    body{
+    font-family:sans-serif;
+    
+    }
+    }
+    nav{
+        width: 200px;
+        height:100%;
+        background: lightblue;
+        top:0px;
+        left:0px;
+        padding-bottom:20px;
+        padding-right:5px;
+        position:fixed;
+        float:left;
+        border:box-sizing;
+        font-family:sans-serif;
+    }
+    nav a {
+        display: block;
+        padding: 10px;
+        color: #333;
+        text-decoration: none;       
+    }
+    nav a:hover {
+        background: #ddd;
+    }
+    .main-section{
+      margin-left:80px;
+      padding-left:125px;
+      font-family:sans-serif;
+    }
+    header{
+        font-size:1.7rem;
+        font-weight:bold;
+        font-family:sans-serif;
+        padding-bottom:20px;
+        padding-top:30px;
+    }
+    
